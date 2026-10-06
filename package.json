@@ -1,0 +1,11 @@
+{
+  "name": "finence_em_update",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix finence_em_app/finence_em_own/finence_em",
+    "build": "npm run build --prefix finence_em_app/finence_em_own/finence_em",
+    "start": "npm run start --prefix finence_em_app/finence_em_own/finence_em",
+    "install:all": "npm install --prefix finence_em_app/finence_em_own/finence_em"
+  }
+}
