@@ -1,0 +1,15 @@
+{
+  "name": "finence_em_update",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix finence_em_update/finence_em",
+    "build": "cd finence_em_update/finence_em && npm ci && npm run build",
+    "start": "npm run start --prefix finence_em_update/finence_em",
+    "install:all": "npm install --prefix finence_em_update/finence_em",
+    "install-deps": "cd finence_em_update/finence_em && npm ci"
+  },
+  "dependencies": {
+    "next": "^15.5.18"
+  }
+}
